@@ -16,7 +16,7 @@ function longestSubstring(s) {
     
     let s = "abcabcbb";
     console.log(lengthOfLongestSubstring(s))
-}
+
 
 module.exports = { longestSubstring };
 
