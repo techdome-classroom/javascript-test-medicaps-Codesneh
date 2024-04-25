@@ -2,7 +2,7 @@ function longestSubstring(s) {
     
         let n = s.length;
         let ans = 0;
-        let map = new Map(); // Store character and its index
+        let map = new Map(); 
         
         for (let j = 0, i = 0; j < n; j++) {
             if (map.has(s[j])) {
