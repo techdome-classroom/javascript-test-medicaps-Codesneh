@@ -26,7 +26,7 @@ function smallestMissingPositiveInteger(nums) {
     }
   }
 
-  // Step 4: If all integers from 1 to n are present, return n + 1
+  
   return n + 1;
 }
 
