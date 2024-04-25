@@ -1,5 +1,5 @@
 function longestSubstring(s) {
-    function lengthOfLongestSubstring(s) {
+    
         let n = s.length;
         let ans = 0;
         let map = new Map(); // Store character and its index
