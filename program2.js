@@ -1,14 +1,12 @@
 function smallestMissingPositiveInteger(nums) {
   const n = nums.length;
 
-  // Step 1: Clean up the list
   for (let i = 0; i < n; i++) {
     if (nums[i] <= 0 || nums[i] > n) {
       nums[i] = n + 1;
     }
   }
 
-  // Step 2: Mark elements
   for (let i = 0; i < n; i++) {
     const val = Math.abs(nums[i]);
     if (val <= n) {
