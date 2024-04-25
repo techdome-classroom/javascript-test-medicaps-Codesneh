@@ -19,7 +19,6 @@ function smallestMissingPositiveInteger(nums) {
     }
   }
 
-  // Step 3: Find the smallest missing positive integer
   for (let i = 0; i < n; i++) {
     if (nums[i] > 0) {
       return i + 1;
