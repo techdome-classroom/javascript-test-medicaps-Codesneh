@@ -27,5 +27,4 @@ function smallestMissingPositiveInteger(nums) {
   return n + 1;
 }
 
-// Export the function so that it can be required in other files
 module.exports = smallestMissingPositiveInteger;
