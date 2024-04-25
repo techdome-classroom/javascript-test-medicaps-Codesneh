@@ -9,7 +9,7 @@ function longestSubstring(s) {
                 i = Math.max(map.get(s[j]), i); 
             }
             ans = Math.max(ans, j - i + 1);
-            map.set(s[j], j + 1); // Put character and its index
+            map.set(s[j], j + 1); 
         }
         return ans;
     }
